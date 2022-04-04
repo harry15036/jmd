@@ -8,6 +8,6 @@ client.connect(url, async(err,dbclient)=>{
 let cursor = db1.collection("Players").find({});
 cursor.forEach((err,data)=>{
 	console.log(data);
-			});
+			})
 	//dbclient.close();
 })
